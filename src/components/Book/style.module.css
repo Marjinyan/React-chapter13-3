@@ -1,0 +1,37 @@
+.book {
+    font-family: sans-serif;
+    margin: 30px;
+    text-align: center;
+}
+
+.book button {
+    padding: 9px 22px;
+    border: none;
+    border: 1px solid #4caf50;
+    background: #4caf50;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.book button:hover {
+    color: #000;
+    background: transparent;
+}
+
+.book img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.book p {
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.book h4 {
+    font-style: italic;
+}
